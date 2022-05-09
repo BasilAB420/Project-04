@@ -1,0 +1,56 @@
+.card{
+    margin: 20px 10px ;
+    box-shadow: 0 0 20px 7px rgb(0, 0, 0,0.1);
+    border: 2px solid black;
+    /* border-radius: 35px; */
+}
+button.buy{
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+button.buy:hover{
+    background-color: #bba14f;
+    border: 2px solid rgb(12, 9, 9);
+}
+button.btn.btn-dark{
+    font-weight: bold;
+    height: 50px;
+    border-radius: 10px;
+ }
+ button.btn.btn-dark:hover{
+
+    background-color: #bba14f;
+    
+    transform: scale(1.2);
+    transition: 0.5s;
+   
+
+ }
+.card-text{
+    font-weight: bold;
+}
+.card-img-top{
+    border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    .container{
+        width: 720px;
+    }
+    .col-md-4{
+        width: 490px;
+    }
+    .card{
+        width:680px !important ;
+        margin-top: 60px;
+    }
+}
